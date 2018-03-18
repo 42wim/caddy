@@ -606,6 +606,7 @@ var directives = []string{
 	"proxyprotocol", // github.com/mastercactapus/caddy-proxyprotocol
 
 	// directives that add middleware to the stack
+	"saml",   //github.com/42wim/caddy-saml
 	"locale", // github.com/simia-tech/caddy-locale
 	"log",
 	"cache", // github.com/nicolasazrak/caddy-cache

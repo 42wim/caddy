@@ -36,6 +36,7 @@ import (
 	"github.com/xenolf/lego/acmev2"
 	"gopkg.in/natefinch/lumberjack.v2"
 
+	_ "github.com/42wim/caddy-saml"
 	_ "github.com/mholt/caddy/caddyhttp" // plug in the HTTP server type
 	// This is where other plugins get plugged in (imported)
 )
